@@ -4,7 +4,9 @@ const VERBS = [
     "break",
     "jack off",
     "get",
-    "physics"
+    "physics",
+    "ax",
+    "jiggle"
 ]
 
 const ADJECTIVES = [
@@ -13,7 +15,11 @@ const ADJECTIVES = [
     "wet",
     "dry",
     "smart",
-    "dumb"
+    "dumb",
+    "sus", 
+    "naughty", 
+    "brownian", 
+    "kinetic"
 ]
 
 const NOUNS = [
@@ -23,6 +29,10 @@ const NOUNS = [
     "lab coat",
     "mr davids cock",
     "textbook",
+    "etch", 
+    "question", 
+    "impostor",
+    "teory"
 ]
 
 const PHRASES = [
@@ -35,6 +45,12 @@ const PHRASES = [
     "Why is your {NOUN} so {ADJ}? Did it {VERB}?",
     "I'm feeling {ADJ} ngl",
     "This is a {ADJ} science class",
+    "Y'all must {VERB} yourselves one {NOUN}",
+    "When the {NOUN} is {ADJ}",
+    "Go to the {ADJ} table",
+    "{ADJ} motion",
+    "{ADJ} molecular teory",
+    "{ADJ} molecular {NOUN}",
 ]
 
 function getRandomElem(array) {
